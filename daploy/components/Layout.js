@@ -9,8 +9,23 @@ const Layout = (pageProps) => {
         <title>daploy.dev</title>
       </Head>
       <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
+      <Header></Header>
       <div className="container">{pageProps.children}</div>
-      <Footer></Footer>
     </div>
   );
 };
