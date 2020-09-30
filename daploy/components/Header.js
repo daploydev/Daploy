@@ -10,8 +10,7 @@ const Header = () => {
         justify="center"
         alignItems="center"
         style={{
-          backgroundColor: "background-color: rgba(0, 0, 0, 0.8);",
-          padding: "20pX",
+          padding: "20px",
         }}
       >
         <Grid item xs={2}>

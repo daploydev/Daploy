@@ -1,9 +1,28 @@
+import * as Realm from "realm-web";
 import Layout from "../components/Layout";
 import "fontsource-roboto";
 
-function MyApp({ Component, pageProps }) {
+const REALM_APP_ID = "daploy-wcred";
+const app = new Realm.App({ id: REALM_APP_ID });
+
+// Create a component that lets an anonymous user log in
+function Login({ setUser }) {
+  const loginAnonymous = async () => {
+    const user = await app.logIn(Realm.Credentials.anonymous());
+    setUser(user);
+  };
+  return <div onClick={loginAnonymous()}></div>;
+}
+const App = ({ Component, pageProps }) => {
+  // Keep the logged in Realm user in local state. This lets the app re-render
+  // whenever the current user changes (e.g. logs in or logs out).
+  const [user, setUser] = React.useState(app.currentUser);
+
+  // If a user is logged in, show their details.
+  // Otherwise, show the login screen.
   return (
     <Layout {...pageProps}>
+      <div className="App-header">{user ? <div></div> : <Login setUser={setUser} />}</div>
       <Component {...pageProps} />
       <style jsx global>{`
         body {
@@ -16,6 +35,6 @@ function MyApp({ Component, pageProps }) {
       `}</style>
     </Layout>
   );
-}
+};
 
-export default MyApp;
+export default App;
