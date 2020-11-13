@@ -35,9 +35,9 @@ const App = ({ Component, pageProps }) => {
   // Otherwise, show the login screen.
   return (
     <div>
-      <div className="App-header">
+      <div style={{backgroundColor:"#333333", color: "#FFFFFF", padding: "0.6rem" }}>
         {user ? (
-          <div style={{backgroundColor:"#333333", color: "#FFFFFF", padding:'0.2rem'}}><p>User ID: {user.id}</p>
+          <div align="right">User ID: {user.id} 
           </div>
         ) : (
           <Login setUser={setUser} />
@@ -49,8 +49,10 @@ const App = ({ Component, pageProps }) => {
         body {
           margin: 0px;
           padding: 0px;
+          color: #333;
           font-family: "Roboto";
-          background-image: linear-gradient(217deg, #08AEEA 0%, #2AF598 100%);
+          background-color: #08AEEA;
+          background-image: linear-gradient(217deg, #08AEEA 0%, #2AF598 100%);}
       `}</style></div>
   );
 };
