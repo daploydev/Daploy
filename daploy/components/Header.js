@@ -18,7 +18,7 @@ const Header = () => {
         <Grid item xs={4}>
         <Link href="/">
         <a><Image src="/images/daploy-logo.png" width="1004px" height="281px"/></a></Link>
-          <h2 align="center">a creative cloud playground.</h2>
+          <h2 align="center">a creative developer playground.</h2>
         </Grid>
       </Grid>
     </div>
