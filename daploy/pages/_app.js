@@ -1,5 +1,6 @@
 import * as Realm from "realm-web";
 import Layout from "../components/Layout";
+import { Typography } from "@material-ui/core";
 import "fontsource-roboto";
 
 const REALM_APP_ID = "daploy-wcred";
@@ -33,18 +34,18 @@ const App = ({ Component, pageProps }) => {
   // If a user is logged in, show their details.
   // Otherwise, show the login screen.
   return (
-    <Layout {...pageProps}>
+    <div>
       <div className="App-header">
         {user ? (
-          <div>
-            <GetItems setItem={setItem} />
+          <div style={{backgroundColor:"#333", color: "#FFF", padding:'0.6rem'}}>User ID: {user.id} 
           </div>
         ) : (
           <Login setUser={setUser} />
         )}
       </div>
+    <Layout {...pageProps}>
       <Component {...pageProps} />
-      <style jsx global>{`
+    </Layout><style jsx global>{`
         body {
           margin: 0px;
           padding: 0px;
@@ -52,8 +53,7 @@ const App = ({ Component, pageProps }) => {
           font-family: "Roboto";
           background-color: #08AEEA;
           background-image: linear-gradient(217deg, #08AEEA 0%, #2AF598 100%);
-      `}</style>
-    </Layout>
+      `}</style></div>
   );
 };
 
