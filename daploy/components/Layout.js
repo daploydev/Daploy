@@ -9,11 +9,7 @@ const Layout = (pageProps) => {
       <Head>
         <title>daploy.dev</title>
       </Head>
-      <Link href="/">
-        <a>
           <Header />
-        </a>
-      </Link>
       <div className="container">{pageProps.children}</div>
     </div>
   );
