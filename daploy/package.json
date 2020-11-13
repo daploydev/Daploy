@@ -12,7 +12,7 @@
     "@material-ui/icons": "^4.9.1",
     "abort-controller": "^3.0.0",
     "fontsource-roboto": "^2.2.6",
-    "next": "9.5.3",
+    "next": "^10.0.1",
     "node-fetch": "^2.6.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",

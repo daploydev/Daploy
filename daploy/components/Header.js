@@ -1,5 +1,7 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
+import Image from "next/image"
+import Link from "next/link"
 
 const Header = () => {
   return (
@@ -13,8 +15,10 @@ const Header = () => {
           padding: "20px",
         }}
       >
-        <Grid item xs={2}>
-          <img src="/images/daploy-logo.png" width="300rem"></img>
+        <Grid item xs={4}>
+        <Link href="/">
+        <a><Image src="/images/daploy-logo.png" width="1004px" height="281px"/></a></Link>
+          <h2 align="center">a creative cloud playground.</h2>
         </Grid>
       </Grid>
     </div>

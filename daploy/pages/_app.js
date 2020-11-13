@@ -38,7 +38,6 @@ const App = ({ Component, pageProps }) => {
         {user ? (
           <div>
             <GetItems setItem={setItem} />
-            {JSON.stringify(app.currentUser)}
           </div>
         ) : (
           <Login setUser={setUser} />
