@@ -37,7 +37,7 @@ const App = ({ Component, pageProps }) => {
     <div>
       <div className="App-header">
         {user ? (
-          <div style={{backgroundColor:"#333", color: "#FFF", padding:'0.6rem'}}>User ID: {user.id} 
+          <div style={{backgroundColor:"#333", color: "#FFF", padding:'0.2rem'}}><p>User ID: {user.id}</p>
           </div>
         ) : (
           <Login setUser={setUser} />
@@ -49,9 +49,7 @@ const App = ({ Component, pageProps }) => {
         body {
           margin: 0px;
           padding: 0px;
-          color: #333;
           font-family: "Roboto";
-          background-color: #08AEEA;
           background-image: linear-gradient(217deg, #08AEEA 0%, #2AF598 100%);
       `}</style></div>
   );
