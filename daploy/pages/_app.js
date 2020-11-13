@@ -37,7 +37,7 @@ const App = ({ Component, pageProps }) => {
     <div>
       <div className="App-header">
         {user ? (
-          <div style={{backgroundColor:"#333", color: "#FFF", padding:'0.2rem'}}><p>User ID: {user.id}</p>
+          <div style={{backgroundColor:"#333333", color: "#FFFFFF", padding:'0.2rem'}}><p>User ID: {user.id}</p>
           </div>
         ) : (
           <Login setUser={setUser} />
