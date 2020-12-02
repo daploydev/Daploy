@@ -37,8 +37,8 @@ const App = ({ Component, pageProps }) => {
     <div>
       <div style={{backgroundColor:"#333333", color: "#FFFFFF", padding: "0.6rem" }}>
         {user ? (
-          <div align="right">User ID: {user.id} 
-          </div>
+          <div><div align="center">LEVEL1</div><div align="right">User ID: {user.id} 
+          </div></div>
         ) : (
           <Login setUser={setUser} />
         )}
