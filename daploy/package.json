@@ -12,11 +12,13 @@
     "@material-ui/icons": "^4.9.1",
     "abort-controller": "^3.0.0",
     "fontsource-roboto": "^2.2.6",
+    "framer-motion": "^2.9.5",
     "next": "^10.0.1",
     "node-fetch": "^2.6.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "realm-web": "^0.9.0",
+    "sass": "^1.30.0",
     "styled-components": "^5.1.1"
   }
 }
