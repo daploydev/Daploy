@@ -67,7 +67,7 @@ export default function Home() {
 							transition: { duration: 0.1 },
 						}}
 					>
-						<p>link1</p>
+						<p>Home</p>
 					</motion.div>
 					<motion.div
 						style={{ padding: "1rem" }}
