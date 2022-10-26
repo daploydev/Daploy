@@ -48,6 +48,7 @@ export default function Home() {
 						src="/images/daploy-logo.png"
 						width="50%"
 						className="text"
+						alt="Daploy Logo"
 					/>
 				</Link>
 				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="0">
