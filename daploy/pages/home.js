@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
 	return (
@@ -58,24 +59,78 @@ export default function Home() {
 			<div>
 				<br />
 			</div>
-			<div className="section-one">
-				<h2>My Skills</h2>
-				<p style={{ padding: "50px", paddingBottom: "100px" }}>
-					<ul>
-						<li>CSS</li>
-						<li>HTML</li>
-						<li>Javascript</li>
-						<li>Typescript</li>
-						<li>React</li>
-						<li>NodeJS</li>
-						<li>MongoDB</li>
-						<li>NextJS</li>
-					</ul>
-				</p>
+			<div className="section-one" style={{ padding: "10px", paddingBottom: "300px" }}>
+				<h1>My Skills</h1>
+				<div style={{ maxWidth: "800px", margin: "auto" }}>
+					<div
+						id="container"
+						style={{
+							display: "Grid",
+							gridTemplateColumns: "2FR 2FR 2FR",
+							gridGap: "5px",
+						}}
+					>
+						<div className="box">
+							<Image src="/svg/css3.svg" width={48} height={48} />
+							<br />
+							CSS
+						</div>
+						<div className="box">
+							<Image src="/svg/html-5.svg" width={48} height={48} />
+							<br />
+							HTML
+						</div>
+						<div className="box">
+							<Image src="/svg/javascript.svg" width={48} height={48} />
+							<br />
+							Javascript
+						</div>
+						<div className="box">
+							<Image src="/svg/typescript.svg" width={48} height={48} />
+							<br />
+							Typescript
+						</div>
+						<div className="box">
+							<Image src="/svg/react.svg" width={48} height={48} />
+							<br />
+							React
+						</div>
+						<div className="box">
+							<Image src="/svg/node-js.svg" width={48} height={48} />
+							<br />
+							NodeJS
+						</div>
+						<div className="box">
+							<Image src="/svg/mongodb.svg" width={48} height={48} />
+							<br />
+							MongoDB
+						</div>
+						<div className="box">
+							<Image src="/svg/next-js.svg" width={48} height={48} />
+							<br />
+							NextJS
+						</div>
+						<div className="box">
+							<Image src="/svg/git.svg" width={48} height={48} />
+							<br />
+							Git
+						</div>
+						<div className="box">
+							<Image src="/svg/npm.svg" width={48} height={48} />
+							<br />
+							NPM
+						</div>
+						<div className="box">
+							<Image src="/svg/graphql.svg" width={48} height={48} />
+							<br />
+							Graphql
+						</div>
+					</div>
+				</div>
 				<div></div>
 				<div className="separator">
 					<svg
-						class="separator__svg"
+						className="separator__svg"
 						width="100%"
 						height="100px"
 						viewBox="0 0 100 100"

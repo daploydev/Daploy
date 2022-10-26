@@ -194,7 +194,7 @@ a {
    begin Separator
  * ------------------------------------------------------------------------- */
 .separator {
-  bottom: -20px;
+  bottom: -5px;
   left: 0;
   overflow: hidden;
   position: absolute;
@@ -205,3 +205,19 @@ a {
    end Separator
  * ------------------------------------------------------------------------- */
 
+
+ .box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 100%;
+}
+
+#container {
+	display: flex;           /* establish flex container */
+	flex-direction: column;  /* make main axis vertical */
+	justify-content: center; /* center items vertically, in this case */
+	align-items: center;     /* center items horizontally, in this case */
+	height: 300px;
+}
