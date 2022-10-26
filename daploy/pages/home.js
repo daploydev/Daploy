@@ -66,7 +66,7 @@ export default function Home() {
 				<div>
 					<br />
 				</div>
-				<div className="section-one" style={{ padding: "10px", paddingBottom: "300px" }}>
+				<div className="section-one" style={{ padding: "10px", paddingBottom: "200px" }}>
 					<h1>My Skills</h1>
 					<div style={{ maxWidth: "800px", margin: "auto" }}>
 						<div
