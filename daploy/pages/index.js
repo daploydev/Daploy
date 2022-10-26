@@ -53,6 +53,7 @@ export default function Home() {
 							}}
 							src="/images/daploy-logo.png"
 							width="50%"
+							height="50%"
 							className="text"
 							alt="Daploy Logo"
 						/>
