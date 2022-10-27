@@ -1,5 +1,6 @@
 import "fontsource-roboto";
 import "../public/css/main.scss";
+import "../styles/global.css";
 import { motion, AnimatePresence } from "framer-motion";
 
 const App = ({ Component, pageProps, router }) => {

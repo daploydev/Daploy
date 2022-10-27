@@ -11,21 +11,21 @@ export default function Home() {
 				<meta name="description" content="Daploy a Web Dev for your Next Project" />
 			</Head>
 			<div>
-				<div class="container">
-					<div class="blobs">
-						<div class="liquid"></div>
-						<div class="blob"></div>
-						<div class="blob"></div>
-						<div class="blob"></div>
-						<div class="blob"></div>
-						<div class="blob"></div>
-						<div class="blob"></div>
-						<div class="blob"></div>
-						<div class="blob"></div>
-						<div class="blob"></div>
-						<div class="blob"></div>
-						<div class="blob"></div>
-						<div class="blob"></div>
+				<div className="container-index">
+					<div className="blobs">
+						<div className="liquid"></div>
+						<div className="blob"></div>
+						<div className="blob"></div>
+						<div className="blob"></div>
+						<div className="blob"></div>
+						<div className="blob"></div>
+						<div className="blob"></div>
+						<div className="blob"></div>
+						<div className="blob"></div>
+						<div className="blob"></div>
+						<div className="blob"></div>
+						<div className="blob"></div>
+						<div className="blob"></div>
 					</div>
 					<Link href="/home" as="/home">
 						<motion.img
@@ -52,10 +52,12 @@ export default function Home() {
 								transition: { duration: 0.2 },
 							}}
 							src="/images/daploy-logo.png"
-							width="50%"
+							width="60%"
+							style={{ minWidth: "200px" }}
 							className="text"
 							alt="Daploy Logo"
 						/>
+						<h2 className="text2 text-black">ENTER</h2>
 					</Link>
 					<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="0">
 						<defs>

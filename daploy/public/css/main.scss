@@ -19,7 +19,7 @@ b {
 	font-size: 28px;
 	color: #fff;
 }
-.container {
+.container-index {
 	width: 100%;
 	height: 100vh;
 	background: #000;
@@ -29,6 +29,13 @@ b {
 .text {
 	position: absolute;
 	top: 45%;
+	padding-left: 100px;
+}
+.text2 {
+	position: absolute;
+	top: 80%;
+	padding-left: 100px;
+	font-size: 30px;
 }
 .liquid {
 	width: 150%;
@@ -190,9 +197,6 @@ a {
   }
 }
 
-/* -------------------------------------------------------------------------
-   begin Separator
- * ------------------------------------------------------------------------- */
 .separator {
   bottom: -5px;
   left: 0;
@@ -201,10 +205,6 @@ a {
 
   width: 100%;
 }
-/* -------------------------------------------------------------------------
-   end Separator
- * ------------------------------------------------------------------------- */
-
 
  .box {
   background-color: #fff;
@@ -225,4 +225,31 @@ a {
 	justify-content: center; /* center items vertically, in this case */
 	align-items: center;     /* center items horizontally, in this case */
 	height: 300px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.text2 {
+		position: absolute;
+		top: 70%;
+		padding-left: 100px;
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.text2 {
+		position: absolute;
+		top: 60%;
+		padding-left: 100px;
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.text2 {
+		position: absolute;
+		top: 55%;
+		padding-left: 100px;
+		font-size: 20px;
+	}
 }
