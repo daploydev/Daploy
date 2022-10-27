@@ -166,7 +166,7 @@ export default function Home() {
 									className="m-auto"
 								/>
 								<br />
-								Tailwind CSS
+								Tailwind
 							</div>
 						</div>
 					</div>

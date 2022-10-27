@@ -51,13 +51,12 @@ export default function Home() {
 								],
 								transition: { duration: 0.2 },
 							}}
-							src="/images/daploy-logo.png"
-							width="60%"
-							style={{ minWidth: "200px" }}
+							src="/images/enter-daploy-logo.png"
+							width="80%"
+							style={{ maxWidth: "800px" }}
 							className="text"
 							alt="Daploy Logo"
 						/>
-						<h2 className="text2 text-black">ENTER</h2>
 					</Link>
 					<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="0">
 						<defs>
