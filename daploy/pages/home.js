@@ -74,7 +74,7 @@ export default function Home() {
 							style={{
 								display: "Grid",
 								gridTemplateColumns: "2FR 2FR 2FR",
-								gridGap: "5px",
+								gridGap: "10px",
 							}}
 						>
 							<div className="box">
@@ -132,6 +132,11 @@ export default function Home() {
 								<br />
 								Graphql
 							</div>
+							<div className="box">
+								<Image src="/svg/tailwind-css.svg" width={48} height={48} alt="Tailwind CSS Logo" />
+								<br />
+								Tailwind CSS
+							</div>
 						</div>
 					</div>
 					<div></div>
@@ -148,7 +153,7 @@ export default function Home() {
 							alt="seperator"
 						>
 							<path d="M 100 100 V 10 L 0 100" />
-							<path d="M 30 73 L 100 18 V 10 Z" fill="#333" strokeWidth="0" />
+							<path d="M 30 73 L 100 18 V 10 Z" fill="#666" strokeWidth="0" />
 						</svg>
 					</div>
 				</div>
