@@ -44,7 +44,7 @@ export default function Home() {
 					<br />
 				</div>
 				<div className="section-one" style={{ padding: "10px", paddingBottom: "300px" }}>
-					<h1 className="text-3xl p-5">My Skills</h1>
+					<h1 className="text-3xl p-5">Built With</h1>
 					<div style={{ maxWidth: "800px", margin: "auto" }}>
 						<div
 							id="container"
