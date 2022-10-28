@@ -19,6 +19,7 @@ export default function Home() {
 							src="/images/daploy-logo.png"
 							width={251}
 							height={70}
+							alt="Daploy Logo"
 						></Image>
 					</Link>
 				</div>
